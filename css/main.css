@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Regular.eot");
+  src: local("Gilroy Regular"), local("Gilroy-Regular"), url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Bold.eot");
+  src: local("Gilroy Bold"), local("Gilroy-Bold"), url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: local("Gilroy ExtraBold"), local("Gilroy-ExtraBold"), url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-SemiBold.eot");
+  src: local("Gilroy SemiBold"), local("Gilroy-SemiBold"), url("../fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gilroy';
+  src: url("../fonts/Gilroy-Light.eot");
+  src: local("Gilroy Light"), local("Gilroy-Light"), url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+.enet {
+  overflow: hidden;
+  background: #020520;
+  color: #fff; }
+
+.enet__section1 {
+  height: 1109px;
+  background: url("../img/section1.jpg") 0 50% no-repeat;
+  background-size: cover; }
+  .enet__section1__top {
+    padding-top: 44px;
+    height: 323px; }
+  .enet__section1 h1 {
+    font-weight: 300;
+    margin: 0;
+    font-size: 110px;
+    line-height: 115px; }
+    .enet__section1 h1 b {
+      font-weight: 800; }
+  .enet__section1__subtitle {
+    color: #8E00FE;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 157px;
+    padding-top: 20px; }
+
+.container-fluid {
+  max-width: 1392px; }
+
+.enet__section2 {
+  margin-top: -110px;
+  border: 113px solid rgba(142, 0, 254, 0.7);
+  border-radius: 100px; }
+  .enet__section2__inner {
+    padding: 60px 0; }
+
+.enet__section3 {
+  height: 770px;
+  background: url("../img/section3.jpg") 50% 50% no-repeat;
+  background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */

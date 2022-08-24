@@ -1,0 +1,49 @@
+.enet {
+  overflow: hidden;
+  background: #020520;
+  color: #fff;
+}
+.enet__section1 {
+  height: 1109px;
+  background: url("../img/section1.jpg") 0 50% no-repeat;
+  background-size: cover;
+  &__top {
+    padding-top: 44px;
+    height: 323px;
+  }
+  h1 {
+    font-weight: 300;
+    margin: 0;
+    font-size: 110px;
+    line-height: 115px;
+    b {
+      font-weight: 800;
+    }
+  }
+  &__subtitle {
+    color: #8E00FE;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 157px;
+    padding-top: 20px;
+  }
+}
+.container-fluid {
+  max-width: 1392px;
+}
+
+.enet__section2 {
+  margin-top: -110px;
+  border: 113px solid rgba(142,0,254,0.7);
+  border-radius: 100px;
+  &__inner {
+    padding: 60px 0;
+  }
+}
+
+.enet__section3 {
+  height: 770px;
+  background: url("../img/section3.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
