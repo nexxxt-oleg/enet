@@ -136,6 +136,9 @@
     outline: none;
     -webkit-box-shadow: none;
             box-shadow: none; }
+  .enet__btn--shadow {
+    -webkit-box-shadow: 0px 0px 84px #8E00FE;
+            box-shadow: 0px 0px 84px #8E00FE; }
 
 .enet__section3 {
   height: 770px;
@@ -249,7 +252,8 @@
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
-    line-height: 30px; }
+    line-height: 30px;
+    padding-left: 30px; }
 
 .enet__ul {
   list-style: none;
@@ -284,12 +288,14 @@
   .enet__section7 h2 {
     margin-bottom: 0; }
   .enet__section7__row1 {
-    min-height: 470px; }
-  .enet__section7__row2 {
     min-height: 450px; }
+  .enet__section7__row2 {
+    min-height: 485px; }
+    .enet__section7__row2 .enet__section7__list {
+      padding-top: 25px; }
   .enet__section7__row3 {
     min-height: 320px;
-    margin-top: 90px; }
+    margin-top: 105px; }
   .enet__section7__footer {
     position: absolute;
     display: -webkit-box;
@@ -307,7 +313,36 @@
     font-weight: 800;
     font-size: 16px;
     line-height: 30px;
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
+  .enet__section7__line {
+    position: absolute;
+    z-index: 2;
+    background: #8E00FE;
+    width: 14px;
+    height: 49px; }
+    .enet__section7__line--n1 {
+      left: 0;
+      top: 204px; }
+    .enet__section7__line--n2 {
+      left: 0;
+      top: 1141px; }
+    .enet__section7__line--n3 {
+      right: 0;
+      top: 658px; }
+  .enet__section7__fb {
+    position: absolute;
+    z-index: 2;
+    width: 269px;
+    height: 502px;
+    right: 0;
+    top: 62px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg width='269' height='502' viewBox='0 0 269 502' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.1' d='M177.604 282.375V501.5H80.3461V282.375V281.875H79.8461H0.5V192.029H79.8461H80.3461V191.529V122.284C80.3461 83.0005 92.0511 52.5684 112.651 31.9579C133.252 11.3468 162.807 0.5 198.619 0.5C215.795 0.5 233.369 2.03129 246.654 3.56361C253.296 4.32965 258.862 5.09566 262.768 5.67008C264.721 5.95729 266.259 6.19658 267.308 6.364C267.829 6.44709 268.229 6.51248 268.5 6.55723V82.9732H229.352C209.709 82.9732 196.744 89.0706 188.699 98.3708C180.666 107.657 177.604 120.062 177.604 132.559V191.513V192.013H178.104H264.744L250.944 281.859L178.104 281.875L177.604 281.875V282.375Z' stroke='white'/%3E%3C/svg%3E%0A"); }
+  .enet__section7 .container-fluid {
+    position: relative;
+    z-index: 10; }
 
 .enet__section8 {
   position: relative;
@@ -317,7 +352,7 @@
   background-size: cover;
   min-height: 770px; }
   .enet__section8 h2 {
-    margin-bottom: 140px; }
+    margin-bottom: 148px; }
   .enet__section8 h3 {
     font-family: 'Gilroy';
     font-style: normal;
@@ -431,22 +466,130 @@
         font-size: 25px;
         line-height: 30px;
         color: #C5C5C5; }
+        .enet__section10__left__desc div::after {
+          content: "";
+          position: absolute;
+          z-index: 10;
+          top: 15px;
+          right: 100%;
+          height: 3px;
+          background: #8E00FE;
+          margin-right: 33px; }
+        .enet__section10__left__desc div::before {
+          content: "";
+          position: absolute;
+          z-index: 10;
+          width: 18px;
+          height: 18px;
+          border-radius: 9px;
+          background: #8E00FE;
+          top: 7px; }
     .enet__section10__left__line1 {
       margin-top: 30px; }
+      .enet__section10__left__line1::after {
+        width: 393px; }
+      .enet__section10__left__line1::before {
+        left: -432px; }
     .enet__section10__left__line2 {
       margin-top: 77px; }
+      .enet__section10__left__line2::after {
+        width: 260px; }
+      .enet__section10__left__line2::before {
+        left: -306px; }
     .enet__section10__left__line3 {
       margin-top: 79px; }
+      .enet__section10__left__line3::after {
+        width: 383px; }
+      .enet__section10__left__line3::before {
+        left: -422px; }
     .enet__section10__left__line4 {
       margin-top: 144px; }
+      .enet__section10__left__line4::after {
+        width: 260px; }
+      .enet__section10__left__line4::before {
+        left: -306px; }
     .enet__section10__left__line5 {
       margin-top: auto;
       margin-bottom: 18px; }
+      .enet__section10__left__line5::after {
+        width: 228px; }
+      .enet__section10__left__line5::before {
+        left: -275px; }
 
 .enet__section11 {
   background: url("../img/section11.jpg") 50% 50% no-repeat;
   background-size: cover;
   min-height: 770px;
   padding-top: 150px; }
+  .enet__section11__row {
+    min-height: 466px; }
+
+.enet__link {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  text-decoration: underline;
+  color: #8E00FE; }
+  .enet__link:hover {
+    text-decoration: none; }
+
+.enet__section12 {
+  background: url("../img/section12.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  min-height: 771px;
+  padding-top: 145px; }
+  .enet__section12 h2 {
+    margin-bottom: 108px; }
+  .enet__section12__mb60 {
+    margin-bottom: 60px;
+    display: inline-block; }
+
+.enet__section13 {
+  background: url("../img/section13.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  min-height: 771px;
+  padding-top: 160px;
+  position: relative;
+  z-index: 10; }
+  .enet__section13 h2 {
+    margin-bottom: 130px; }
+  .enet__section13 p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0;
+    color: #FFFFFF; }
+  .enet__section13__footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    bottom: -34px;
+    width: 100%;
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+
+.enet__section14 {
+  background: url("../img/section14.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  min-height: 770px;
+  padding-top: 200px;
+  position: relative;
+  z-index: 1; }
+  .enet__section14 h2 {
+    color: #c5c5c5;
+    margin-bottom: 130px; }
+
+.enet__section16 {
+  background: url("../img/section16.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  min-height: 1542px; }
 
 /*# sourceMappingURL=main.css.map */
