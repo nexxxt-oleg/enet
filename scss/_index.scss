@@ -58,7 +58,7 @@
       font-weight: 800;
       font-size: 70px;
       line-height: 65px;
-      color: #fff;
+      color: rgba(197, 197, 197, 1);
       padding-top: 97px;
       margin-bottom: 0;
     }
@@ -649,8 +649,128 @@
   }
 }
 
+.enet__section15 {
+  &__row1 {
+    position: relative;
+    z-index: 1;
+  }
+  &__title {
+    position: relative;
+    z-index: 2;
+    padding: 60px 0 0 348px;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 1283px;
+      height: 486px;
+      background: url('../img/bg_section15__title.png') 0 0 no-repeat;
+    }
+    h2 {
+      position: relative;
+      z-index: 5;
+    }
+  }
+  &__row2 {
+    position: relative;
+    z-index: 3;
+    padding-top: 170px;
+  }
+  &__left {
+    h3 {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 25px;
+      line-height: 30px;
+      margin-bottom: 39px;
+    }
+  }
+  &__rigth {
+    position: relative;
+    z-index: 3;
+    min-height: 558px;
+    padding: 187px 0 0 115px;
+    margin-top: -190px;
+    background: #8E00FE;
+    &::after {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 60vw;
+      background: #8E00FE;
+      position: absolute;
+      z-index: 3;
+      top: 0;
+      left: 100%;
+    }
+    .row {
+      position: relative;
+      z-index: 5;
+      p {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
 .enet__section16 {
   background: url("../img/section16.jpg") 50% 50% no-repeat;
   background-size: cover;
   min-height: 1542px;
+  padding-top: 200px;
+  &__row1 {
+    min-height: 737px;
+    align-content: flex-start;
+  }
+  &__row2 {
+    h2 {
+      margin-bottom: 120px;
+    }
+    padding-bottom: 50px;
+    p {
+      margin-bottom: 0;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+}
+
+.enet__section17 {
+  padding-top: 107px;
+  padding-bottom: 137px;
+  h2 {
+    margin-bottom: 107px;
+  }
+  &__footer {
+    padding-top: 43px;
+  }
+  h3 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color: #C5C5C5;
+  }
+  p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    color: #C5C5C5;
+  }
 }
