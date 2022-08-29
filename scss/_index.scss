@@ -860,6 +860,12 @@
           font-size: 16px;
           opacity: 1;
         }
+        &:focus,
+        &:active,
+        &:hover {
+          outline: none !important;
+          box-shadow: none !important;
+        }
       }
     }
     &__submit {
