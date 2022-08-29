@@ -17,6 +17,14 @@
     margin-left: -35px;
     width: 400px;
   }
+  .enet__collapse {
+    left: auto;
+    right: 0;
+    min-width: 706px;
+  }
+  .enet__collapse .enet__accordion-body {
+    width: calc(100% - 30px);
+  }
 }
 
 @media screen and (max-width: 1199px) {
@@ -373,6 +381,39 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .enet__collapse {
+    width: 100%;
+    min-width: 100%;
+  }
+
+
+  .enet__collapse .enet__accordion-body {
+    width: calc(100% - 15px);
+    padding: 110px 15px 30px 30px;
+
+    li {
+      padding-bottom: 20px;
+      a {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .modal-dialog__close {
+    top: 10px;
+    right: 15px;
+    svg {
+      width: 23px;
+      height: 23px;
+    }
+  }
+
+  .modal-dialog .modal-content {
+    padding: 35px;
+  }
+
   .enet__section1__top {
     height: 170px;
   }
@@ -692,6 +733,21 @@
       height: auto;
     }
   }
+  .enet__section1__down {
+    display: none;
+  }
+  .enet__section3__graf__img {
+    display: flex;
+    justify-content: center;
+  }
+  .enet__section3__graf {
+    padding-bottom: 30px;
+  }
+  .enet__section3__graf__caption {
+    padding-left: 0;
+    padding-top: 5px;
+    text-align: center;
+  }
   .enet__section10__left__desc div {
     font-weight: 600;
     font-size: 16px;
@@ -699,6 +755,10 @@
     &::after {
       margin-right: 15px;
     }
+  }
+  .enet__link {
+    font-size: 16px;
+    line-height: 30px;
   }
   .enet__section10__left__desc {
     padding-left: 34px;
@@ -757,11 +817,42 @@
   .enet__section3__graf {
     width: 100%;
   }
+  .modal-dialog .modal-title {
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 30px;
+  }
+  .modal-dialog .modal-content__submit {
+    padding-top: 10px;
+  }
+  .enet__btn-submit {
+    width: 100%;
+    height: 56px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .enet__section13__footer,
+  .enet__section7__footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 @media screen and (max-width: 380px) {
   .enet__section9 {
     background-size: 380px auto;
     padding-top: 30px;
+  }
+  .enet__collapse .enet__accordion-body {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .enet__collapse__close {
+    top: 15px;
+    svg {
+      display: block;
+      width: 23px;
+      height: 23px;
+    }
   }
   .enet__section9__list {
     padding-top: 50px;
@@ -803,5 +894,8 @@
   .enet__section5__desc {
     padding-top: 0;
     padding-right: 40px;
+  }
+  .enet__section1__top {
+    padding-top: 15px;
   }
 }

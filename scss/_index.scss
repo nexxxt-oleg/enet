@@ -9,6 +9,7 @@
   height: 1109px;
   background: url("../img/section1.jpg") 0 50% no-repeat;
   background-size: cover;
+  z-index: 1;
 
   &__top {
     padding-top: 44px;
@@ -35,6 +36,53 @@
     padding-bottom: 157px;
     padding-top: 20px;
   }
+  &__down {
+    position: absolute;
+    z-index: 2;
+    bottom: -50px;
+    right: 15px;
+  }
+}
+
+.enet__menu-open {
+  cursor: pointer;
+}
+
+.enet__collapse {
+  position: absolute;
+  z-index: 30;
+  top: 0;
+  left: 50%;
+  background: rgba(142, 0, 254, 0.8);
+  backdrop-filter: blur(35px);
+  width: 50%;
+
+  .enet__accordion-body {
+    padding: 110px 0 50px 116px;
+    min-height: 100vh;
+    width: 680px;
+    position: relative;
+    li {
+      padding-bottom: 40px;
+       a{
+         display: block;
+         font-family: 'Gilroy';
+         font-style: normal;
+         font-weight: 800;
+         font-size: 19px;
+         line-height: 20px;
+         text-decoration: none;
+         color: #FFFFFF;
+       }
+    }
+  }
+  &__close {
+    position: absolute;
+    z-index: 5;
+    top: 60px;
+    display: block;
+    right: 0;
+  }
 }
 
 .container-fluid {
@@ -46,6 +94,8 @@
   background-color: rgba(142, 0, 254, 0.7);
   border-radius: 155px;
   padding: 110px;
+  position: relative;
+  z-index: 2;
 
   &__inner {
     padding: 60px 0 85px;
@@ -773,4 +823,84 @@
     line-height: 30px;
     color: #C5C5C5;
   }
+}
+
+.modal-dialog {
+  max-width: 532px;
+  .modal-content {
+    background: rgba(142, 0, 254, 0.8);
+    box-shadow: 0px 0px 130px #000000;
+    backdrop-filter: blur(35px);
+    border-radius: 30px;
+    border: none !important;
+    padding: 58px 64px 69px;
+    &__row {
+      padding-bottom: 35px;
+      .form-control {
+        display: block;
+        background: transparent;
+        width: 100%;
+        padding: 0;
+        border-width: 0 0 1px 0;
+        border-bottom-color: rgba(255,255,255,0.8);
+        border-style: solid;
+        border-radius: 0;
+        height: 30px;
+        color: #fff;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 30px;
+        &::placeholder {
+          color: #fff;
+          font-family: 'Gilroy';
+          font-style: normal;
+          font-weight: 800;
+          font-size: 16px;
+          opacity: 1;
+        }
+      }
+    }
+    &__submit {
+      padding-top: 30px;
+    }
+  }
+  &__close {
+    position: absolute;
+    z-index: 10;
+    top: -50px;
+    right: -50px;
+    display: block;
+
+  }
+  .modal-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding-bottom: 49px;
+  }
+}
+.enet__btn-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-width: 234px;
+  text-align: center;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 40px;
+  height: 68px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  color: #8E00FE;
+  border-radius: 34px;
 }
